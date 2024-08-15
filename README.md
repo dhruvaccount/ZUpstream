@@ -1,4 +1,4 @@
-<h1 align="center">Zee Mirror</h1>
+<h1 align="center">Dhruv Mirror</h1>
 
 
 This is a Telegram Mirror/Leech Bot written in Python for mirroring files on the Internet to your Cloud Drive, based on [Mirror-Leech-Telegram-Bot](https://github.com/anasty17/mirror-leech-telegram-bot), has undergone
@@ -487,7 +487,7 @@ programming in Python.
 
 ------
 
-# Build and run the Zee Mirror Bot
+# Build and run the Dhruv Mirror Bot
 
 Make sure you still inside the repo folder and installed the docker from [official Docker docs](https://docs.docker.com/engine/install/debian/).
 

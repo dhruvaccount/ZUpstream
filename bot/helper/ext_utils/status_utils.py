@@ -31,19 +31,19 @@ SIZE_UNITS = [
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Upload 📤"
-    STATUS_DOWNLOADING = "Download 📥"
-    STATUS_CLONING = "Clone 🔃"
-    STATUS_QUEUEDL = "QueueDL ⏳"
-    STATUS_QUEUEUP = "QueueUL ⏳"
+    STATUS_UPLOADING = "Uploading...📤"
+    STATUS_DOWNLOADING = "Downloading...📥"
+    STATUS_CLONING = "Cloning...♻️"
+    STATUS_QUEUEDL = "QueueDL... ⏳"
+    STATUS_QUEUEUP = "QueueUp... ⏳"
     STATUS_PAUSED = "Paused ⛔️"
-    STATUS_ARCHIVING = "Archive 🛠"
-    STATUS_EXTRACTING = "Extract 📂"
-    STATUS_SPLITTING = "Split ✂️"
-    STATUS_CHECKING = "CheckUp ⏱"
-    STATUS_SEEDING = "Seed 🌧"
-    STATUS_SAMVID = "SampleVid 🎬"
-    STATUS_CONVERTING = "Convert ♻️"
+    STATUS_ARCHIVING = "Archiving... 🛠"
+    STATUS_EXTRACTING = "Extracting...📂"
+    STATUS_SPLITTING = "Splitting...✂️"
+    STATUS_CHECKING = "CheckingUp...📝"
+    STATUS_SEEDING = "Seeding...🌧"
+    STATUS_SAMVID = "SampleVid... 🎬"
+    STATUS_CONVERTING = "Converting... ♻️"
 
 
 STATUSES = {
@@ -191,8 +191,8 @@ def get_progress_bar_string(pct):
         100
     )
     cFull = int(p // 10)
-    p_str = "█" * cFull
-    p_str += "▒" * (10 - cFull)
+    p_str = "▰" * cFull
+    p_str += "▱" * (10 - cFull)
     return f"{p_str}"
 
 
@@ -203,7 +203,7 @@ async def get_readable_message(
         status="All",
         page_step=1
     ):
-    msg = ""
+    msg = "<b>Powered By <a href='https://t.me/DhruvMirrorUpdates'><u>Dhruv Mirror Premium</u></a>\n</b>"
     button = None
 
     tasks = await sync_to_async(

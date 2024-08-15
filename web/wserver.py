@@ -282,8 +282,8 @@ function s_validate() {
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.github.com/dhruvmehta1311"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/dhruv444"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <div id="sticks">
@@ -674,8 +674,8 @@ section span{
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.github.com/dhruvmehta1311"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/dhruv444"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -886,7 +886,7 @@ def set_priority(id_):
 
 @app.route("/")
 def homepage():
-    return "<h1>Visit my channel <a href='https://telegram.me/z_mirror'>@Z_Mirror</a>on Telegram By <a href='https://telegram.me/dawn_bharat'>@Dawn_Bharat</a></h1>"
+    return "<h1>Visit my channel <a href='https://telegram.me/DhruvMirrorPremium'>DhruvMirrorPremium</a>on Telegram By <a href='https://telegram.me/dhruv444'>Dhruv</a></h1>"
 
 
 @app.errorhandler(Exception)

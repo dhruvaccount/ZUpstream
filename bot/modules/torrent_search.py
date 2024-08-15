@@ -283,7 +283,7 @@ async def _getResult(search_results, key, message, method):
     path = [
         (
             await telegraph.create_page(
-                title="Zee Torrent Search",
+                title="Dhruv Mirror Torrent Search",
                 content=content
             )
         )["path"]
